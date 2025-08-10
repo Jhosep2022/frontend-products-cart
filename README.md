@@ -1,3 +1,39 @@
+# Frontend — Products & Cart (Next.js + Tailwind)
+
+Interfaz mínima para consumir la API de **Products & Cart**.  
+Incluye:
+- Listado de productos y carrito (consume `/products` y `/cart`).
+- Vista de **"Mejor combinación"** (algoritmo 0/1 knapsack donde el valor = precio).
+- Tabs para alternar entre vistas.
+
+> Backend de referencia: NestJS desplegado (por ejemplo en Render).
+
+---
+
+## 🚀 Stack
+- Next.js (App Router, TypeScript)
+- TailwindCSS
+- Fetch nativo con helper `lib/fetcher`
+- Arquitectura simple por capas (`services`, `components`, `types`)
+
+---
+
+## 📦 Requisitos
+- Node.js 18+
+- npm (o pnpm/yarn)
+
+---
+
+## ⚙️ Configuración
+
+1) Instala dependencias
+```bash
+npm install
+```
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
